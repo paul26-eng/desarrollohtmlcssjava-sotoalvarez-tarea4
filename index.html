@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registro En Nuestra Tienda</h1>
+    <form action="#" method="post">
+        <label for="username">Nombre de Usuario:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" min="1" required>
+        <br><br>
+
+        <label for="birthdate">Fecha de Nacimiento:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <br><br>
+
+        <label>Género:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Masculino</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Femenino</label>
+        <br><br>
+
+        <label for="referredBy">Recomendado por:</label>
+        <input type="text" id="referredBy" name="referredBy">
+        <br><br>
+
+        <label for="comments">Comentarios:</label>
+        <textarea id="comments" name="comments"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">Acepto los términos y condiciones</label>
+        <br><br>
+
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>

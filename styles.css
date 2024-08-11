@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-family: Verdana, sans-serif;
+}
+h1{
+    color: #4A90E2; 
+    font-size: 2em; 
+    text-align: initial; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+h1:hover{color: chocolate;
+    transform: scale(1.1);
+
+}
+
+textarea {
+    width: 200px; 
+}
+
+
+input[name="email"] {
+    background-color: #eeeeee;
+}
+
+
+p, label {
+    font-family: Tahoma, sans-serif;
+}
+
+
+input[type="text"], 
+input[type="email"], 
+input[type="number"], 
+input[type="date"] {
+    width: 200px; 
+    margin-bottom: 10px; 
+    padding: 5px; 
+}
